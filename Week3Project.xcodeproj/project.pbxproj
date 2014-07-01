@@ -19,6 +19,8 @@
 		E23B68241963235100D0C2E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23B680C1963235100D0C2E8 /* UIKit.framework */; };
 		E23B682C1963235100D0C2E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E23B682A1963235100D0C2E8 /* InfoPlist.strings */; };
 		E23B682E1963235100D0C2E8 /* Week3ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E23B682D1963235100D0C2E8 /* Week3ProjectTests.m */; };
+		E23B683A1963236200D0C2E8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E23B68381963236200D0C2E8 /* MainViewController.m */; };
+		E23B683B1963236200D0C2E8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E23B68391963236200D0C2E8 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E23B68291963235100D0C2E8 /* Week3ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week3ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		E23B682B1963235100D0C2E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E23B682D1963235100D0C2E8 /* Week3ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week3ProjectTests.m; sourceTree = "<group>"; };
+		E23B68371963236200D0C2E8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E23B68381963236200D0C2E8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E23B68391963236200D0C2E8 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		E23B67FC1963235100D0C2E8 = {
 			isa = PBXGroup;
 			children = (
+				E23B683C1963236900D0C2E8 /* ViewControllers */,
 				E23B680E1963235100D0C2E8 /* Week3Project */,
 				E23B68271963235100D0C2E8 /* Week3ProjectTests */,
 				E23B68071963235100D0C2E8 /* Frameworks */,
@@ -142,6 +148,16 @@
 				E23B682A1963235100D0C2E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E23B683C1963236900D0C2E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E23B68371963236200D0C2E8 /* MainViewController.h */,
+				E23B68381963236200D0C2E8 /* MainViewController.m */,
+				E23B68391963236200D0C2E8 /* MainViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23B68131963235100D0C2E8 /* InfoPlist.strings in Resources */,
+				E23B683B1963236200D0C2E8 /* MainViewController.xib in Resources */,
 				E23B681B1963235100D0C2E8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23B68191963235100D0C2E8 /* AppDelegate.m in Sources */,
+				E23B683A1963236200D0C2E8 /* MainViewController.m in Sources */,
 				E23B68151963235100D0C2E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
